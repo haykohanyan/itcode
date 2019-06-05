@@ -1,0 +1,95 @@
+
+.portfolioFilter {
+    padding: 15px 0;
+}
+
+.portfolioFilter a {
+    margin-right: 21px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 78px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.portfolioFilter a.current {
+    background:#F1F3F4;
+    border: 1px solid #F1F3F4;
+    color: black;
+}
+
+.portfolioFilter1 {
+    padding: 15px 0;
+}
+
+.portfolioFilter1 a {
+    margin-right: 6px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 4px 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.portfolioFilter1 a.current {
+    background:#F1F3F4;
+    border: 1px solid #F1F3F4;
+    color: black;
+}
+
+.portfolioContainer{
+    margin: 0  10%;
+    border-radius: 3px;
+    width: 100%;
+}
+.portfolioContainer img {
+    padding-left: 10px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+@media(max-width: 635px){
+    .portfolioFilter a {
+    margin-right: 6px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 4px 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+}
